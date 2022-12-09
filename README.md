@@ -2,7 +2,9 @@
 
 ## Programa Analítico INF 351
 ### Sobre
-Projeto que retorna uma página web do programa analítico da matéria INF 351 - Sistemas Embarcados, aessado por uma rede wifi fornecida pelo esp32. 
+Projeto que retorna uma página web do programa analítico da matéria INF 351 - Sistemas Embarcados, aessado por uma rede wifi fornecida pelo esp32.
+
+Com a IDE do Arduino instalada, siga os passos do próximo link para adicionar a placa esp32 a sua IDE [Adicionando esp32 a IDE do Arduino](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
 
 A maior parte da configuração do projeto foi utilizando o link [Site Guia do projeto](https://randomnerdtutorials.com/esp32-client-server-wi-fi/#:~:text=The%20ESP32%20server%20creates%20its,the%20ESP32%20server%20wireless%20network.) , que ensina a configurar um servidor pelo wifi usando o esp32.
 
