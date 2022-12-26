@@ -9,6 +9,8 @@ int echo = 5;
 #define R1 12
 #define R2 13
 
+#define speaker 9
+
 float distancia;
 
 void setup()
@@ -26,7 +28,7 @@ void setup()
   pinMode(R2, OUTPUT);
 
   // speaker
-  pinMode(9, OUTPUT);
+  pinMode(speaker, OUTPUT);
 
   Serial.begin(9600);
 }
@@ -35,7 +37,7 @@ void loop()
 {
   if (digitalRead(S) == LOW)
   {
-    noTone(8);
+    noTone(speaker);
 
     digitalWrite(G1, LOW);
     digitalWrite(G2, LOW);
@@ -92,7 +94,7 @@ void loop()
     }
     else if (distancia > 70)
     {
-      tone(9, 800, 200);
+      tone(speaker, 800, 200);
 
       digitalWrite(G1, HIGH);
       digitalWrite(G2, HIGH);
@@ -103,7 +105,7 @@ void loop()
     }
     else if (distancia > 60)
     {
-      tone(9, 900, 200);
+      tone(speaker, 900, 200);
 
       digitalWrite(G1, HIGH);
       digitalWrite(G2, HIGH);
@@ -114,7 +116,7 @@ void loop()
     }
     else if (distancia > 40)
     {
-      tone(9, 1000, 200);
+      tone(speaker, 1000, 200);
 
       digitalWrite(G1, HIGH);
       digitalWrite(G2, HIGH);
@@ -125,7 +127,7 @@ void loop()
     }
     else
     {
-      tone(9, 1100, 200);
+      tone(speaker, 1100, 200);
 
       digitalWrite(G1, HIGH);
       digitalWrite(G2, HIGH);
