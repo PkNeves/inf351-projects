@@ -14,3 +14,57 @@ A parte de renderização de páginas html pode ser encontrada no site [Como exi
  1. Com o esp32 ligado, procure a rede 'ESP32-Access-Point' no wifi do seu celular ou outro disposivo com essa tecnologia e insira a senha: 123456789.
  2. Com o wifi conectado, abra seu navegador e digite o endereço 192.168.4.1
  3. Pronto! Essa url deverá te fornecer a página web do programa analítico da disciplina de INF 351 - Sistemas Embarcados.
+
+## [Tetris na mesa de led](https://github.com/PkNeves/inf351-projects/tree/main/mesa_led_tetris_millis)
+
+### Sobre
+
+Jogo Tetris feito usando uma mesa de led 16x16 e 4 botões com as funcionalidades: girar peça, mover para direita, mover para esquerda e fazer a peça descer mais rápido.
+
+Inicialmente o jogo já tinha sido desenvolvido por outro aluno, mas utilizava a função `delay()` que gerava alguns atrasos ao apertar o botão. Para melhorar essa parte do código, foi utilizado a função `millis()`, que destrava o fluxo, deixando a funcionalidade de cair a peça independente da funcionalidade de apertar os botões de ação.
+
+## [Sensor de proximidade com Led](https://github.com/PkNeves/inf351-projects/tree/main/sensor_de_proximidade_com_led)
+
+### Sobre
+
+Projeto com um sensor ultrasônico que capta a proximidade de objetos e acende o led de acordo com a proximidade.
+
+O projeto foi primeiro montado no [Tinkercad](tinkercad.com) e depois passado para o projeto físico, montado em protoboard.
+Ele utiliza 6 led (2 verdes, 2 amaralos, 2 vermelhos), um sensor de presença e um arduíno.
+
+Os leds estão posicionados um atras do outro na sequência Verde -> Amarelo -> Vermelho. O sensor de presença então capta e computa a distância. Quando mais próximo, mais leds irão se acender, começando pelo primeiro verde.
+
+
+## [Tinkercad Neopixel Led e Botão](https://github.com/PkNeves/inf351-projects/tree/main/tinkercad_neopixel_botao_caminha_led)
+
+### Sobre
+
+Projeto que possui uma fita de led e um botão. Toda vez que o botão é pressionado, o próximo led da fita de led acende em uma cor randômica.
+
+O projeto foi feito no [Tinkercad](tinkercad.com) usando um arduíno, uma fita de led e um botão.
+
+O projeto consiste na idéia primária do jogo corrida de led e pode ser usado para um entendimento mais simples de como a corrida funciona.
+
+## [Tinkercad Sinal Trânsito Millis](https://github.com/PkNeves/inf351-projects/tree/main/tinkercad_sinal_transito_millis)
+
+### Sobre
+
+Um projeto que simula dois sinais de trânsito, quando um fecha o outro abre e vice versa, tendo seus tempos definidos em código.
+
+Foi um dos primeiro projetos passados e é interessante para entender como a função `millis()` funciona e sua vantagem em relação ao `delay()`
+
+## [Tinkercad Led Gradual](https://github.com/PkNeves/inf351-projects/tree/main/tinkercad_ultrasonico_led_gradual)
+
+### Sobre
+
+Projeto que também utiliza o sensor ultrasônico, mas com um led RGB. A medida que a distância muda, a cor do RGB muda também.
+
+Um projeto bom para entender como fuciona o led RGB.
+
+## [Tinkercad Ultrasônico e Tone](https://github.com/PkNeves/inf351-projects/tree/main/tinkercad_ultrasonico_sensor_proximidade_tone)
+
+### Sobre
+
+Projeto similar com o sensor de proximidade, mas que utiliza um speaker para emitir um sinal sonoro quando vai chegando mais próximo.
+
+Ele também possui os leds que acendem junto, mas toca um som com uma frequência mais aguda cada vez que vai chegando mais perto.
