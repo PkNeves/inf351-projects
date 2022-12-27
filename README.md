@@ -34,6 +34,7 @@ Ele utiliza 6 led (2 verdes, 2 amaralos, 2 vermelhos), um sensor de presença e 
 
 Os leds estão posicionados um atras do outro na sequência Verde -> Amarelo -> Vermelho. O sensor de presença então capta e computa a distância. Quando mais próximo, mais leds irão se acender, começando pelo primeiro verde.
 
+[Link do Projeto](https://www.tinkercad.com/things/fAI9ovxNcrw-ultrasonicoledgradual/editel?sharecode=pYKlDVMLFdy8B9F-QoZ78CVEZKsYuIm2f86PK23kT5A)
 
 ## [Tinkercad Neopixel Led e Botão](https://github.com/PkNeves/inf351-projects/tree/main/tinkercad_neopixel_botao_caminha_led)
 
@@ -45,6 +46,8 @@ O projeto foi feito no [Tinkercad](tinkercad.com) usando um arduíno, uma fita d
 
 O projeto consiste na idéia primária do jogo corrida de led e pode ser usado para um entendimento mais simples de como a corrida funciona.
 
+[Link do Projeto](https://www.tinkercad.com/things/l69hM65qgVx-acendeledbotao/editel?sharecode=KULfZgp6uiLu-ePZLGjAUw3RDOuuDU-fVLLjw_NwtK0)
+
 ## [Tinkercad Sinal Trânsito Millis](https://github.com/PkNeves/inf351-projects/tree/main/tinkercad_sinal_transito_millis)
 
 ### Sobre
@@ -52,6 +55,8 @@ O projeto consiste na idéia primária do jogo corrida de led e pode ser usado p
 Um projeto que simula dois sinais de trânsito, quando um fecha o outro abre e vice versa, tendo seus tempos definidos em código.
 
 Foi um dos primeiro projetos passados e é interessante para entender como a função `millis()` funciona e sua vantagem em relação ao `delay()`
+
+[Link do Projeto](https://www.tinkercad.com/things/61INOquJCPC-sinal-de-transito-com-millis-inf-351/editel?sharecode=55GGh4_gTXeSKtbzUXC8MCQ1jOaVLpfPGv1oVy23m9s)
 
 ## [Tinkercad Led Gradual](https://github.com/PkNeves/inf351-projects/tree/main/tinkercad_ultrasonico_led_gradual)
 
@@ -61,6 +66,8 @@ Projeto que também utiliza o sensor ultrasônico, mas com um led RGB. A medida 
 
 Um projeto bom para entender como fuciona o led RGB.
 
+[Link do Projeto](https://www.tinkercad.com/things/gSkGBH8aQ1w-led-gradual/editel?sharecode=jrZ-L51mCNOmMbWX7hYsUqZjDvUbirvMW8VZTSeuhHE)
+
 ## [Tinkercad Ultrasônico e Tone](https://github.com/PkNeves/inf351-projects/tree/main/tinkercad_ultrasonico_sensor_proximidade_tone)
 
 ### Sobre
@@ -68,3 +75,5 @@ Um projeto bom para entender como fuciona o led RGB.
 Projeto similar com o sensor de proximidade, mas que utiliza um speaker para emitir um sinal sonoro quando vai chegando mais próximo.
 
 Ele também possui os leds que acendem junto, mas toca um som com uma frequência mais aguda cada vez que vai chegando mais perto.
+
+[Link do Projeto](https://www.tinkercad.com/things/demXq15jxE9-sensorproximidadecomtone/editel?sharecode=IEGGBaeBEbiKXHcCeSETGJw-KQzzfCTrCnbITjKoT2U)
